@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');/**'MedievalSharp', cursive**/
+
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');/**'Zeyada', cursive;**/
+
+body{
+    font-family: 'MedievalSharp', cursive;
+    background-image:linear-gradient(to right,#7e6f54,#bea67a);
+    background-attachment: fixed;
+    color: #27221a;
+}
+main{
+    background-color: #DBC193;
+    width: 500px;
+    height:600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 6px 3px 20px #362f24;
+    border: 8px double #362F24;
+    border-radius: 4%;
+}
+h1,h2,h3,h5,h4{
+    font-family: 'MedievalSharp', cursive;
+    color: #362F24;
+    text-align: center;
+    text-shadow: 2px 1px 2px #ffffffb0;
+}
+h5{
+    position: relative;
+    top: -20px;
+    right: -10px;
+}
+#feio{
+    filter: blur(1px);
+    /**background-color: #362f24;**/
+    position: relative;
+    right: -300px;
+    top: 10px;
+    height: 300px;
+    border: 5px dashed #362F24;
+}
+p{
+    width: 300px;
+    position: relative;
+    top: -320px;
+    text-indent: 10px;
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}

@@ -1,0 +1,41 @@
+/*AQUI É O CSS ONDE DEIXA TUDO KWAI E FOFINHO*/
+body{
+    background-color: rgb(32, 3, 44);
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    
+}
+#um{
+    border-radius: 30px;
+    margin-left: 26%;
+    position:relative;
+}
+#dois{
+    border-radius: 30px;
+    position:relative;
+}
+#tres{
+    border-radius: 30px;
+    margin-left: 26%;
+    position:relative;
+}
+#quatro{
+    border-radius: 30px;
+    position:relative;
+}
+.video{
+    padding-left: 30%;
+    margin-top: 50px;
+}
+.seta{
+    margin-left: 665px;
+}
+p{
+    margin-left: 642px;
+    color: rgb(222, 226, 0);
+    
+}
+/*mark{
+    background-color: chartreuse;
+    color: chartreuse;
+}/*

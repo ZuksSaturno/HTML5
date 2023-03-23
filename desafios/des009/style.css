@@ -1,0 +1,44 @@
+@keyframes oioi {
+from{
+background-color: rgb(2, 1, 15);
+}
+50%{
+    background-color: rgb(15, 1, 1);
+}
+100%{
+    background-color: rgb(2, 1, 15);
+}
+}
+body{
+    animation-name: oioi;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.seta{
+    margin-left: 48%;
+}
+.stinha{
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+iframe{
+    margin-left: 28.3%;
+}
+#msc1{
+    margin-left: 26.6%;
+}
+#msc2{
+
+}
+#msc3{
+ margin-left: 26.6%;
+}
+#msc4{
+
+}
