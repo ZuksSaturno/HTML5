@@ -3,3 +3,5 @@
 
  Meu pc tá travando um pouco com esses bagulho do git e github
  mas ta suave porque vou dar uma geral nele depois.
+
+ <a href="https://www.qr-code-generator.com/">Criar QRcode</a>
