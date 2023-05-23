@@ -1,1 +1,90 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Passion One', cursive;
+    --font3:'Sriracha', cursive;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: cadetblue;
+    font-family: var(--font1);
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;/*Faz uma config da font diferenciada*/
+    font-family: var(--font2);
+    font-size: 3.5vw ;
+}
+header>p{
+    padding-bottom: 50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 2vw;
+}
+section>p{
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 0px black;
+}
+#img1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right,center;
+    background-size: cover;
+}
+ .normal{
+    background-color: aliceblue;
+    color: black;
+ }
+
+ .imagem{
+    background-color: rgb(27, 26, 26);
+    color: aliceblue;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
+    background-attachment: fixed;
+ }
+ .imagem>p{
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+ }
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
