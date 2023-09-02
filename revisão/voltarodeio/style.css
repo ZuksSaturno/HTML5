@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    height: 1000px;
+    background-color: chocolate;
+}
+h1{
+    display: inline-block;
+    font-family: 'Righteous', sans-serif;
+    font-size: 40pt;
+    margin: 0%;
+    border: 0px;
+    padding: 0px;
+    background-color: rgba(0, 255, 255, 0);
+    vertical-align: 85px;
+
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0);
+}
+header{
+    background-color: rgb(240, 248, 255);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.658);
+    position: relative;
+}
+header>section{
+    margin: auto;
+    background-color: rgba(252, 223, 179, 0);
+    width: 515px;
+}
+main{
+    width: 700px;
+    height: 1500px;
+    background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px ;
+    display: inline-block;
+    margin-left:24% ;
+}
+
+#login>section>h4{
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Righteous';
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.808);
+    display: inline-block;
+    
+}
+#login>section>h4:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}
+#login>section{
+    background-color: rgba(0, 255, 255, 0);
+    position:absolute;
+    top: 50px;
+    left: 40px;
+}
+.placar>h2,h3{
+    display: inline-block;
+    font-family:'Righteous', sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: 50%;
+}
+.placar>h3{
+    font-size: 20pt;
+}
+section>article>img{
+    width: 50px;
+    height: 50px;
+}
+.placar{
+    background-color: rgba(7, 255, 172, 0);
+    width: 400px;
+    margin: auto;
+    margin-top: 5px;
+}
+.video{
+    background-color: rgb(255, 255, 255);
+    width: 560px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+iframe{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+
+
+section.all{
+    display: inline-block;
+    background-color: rgba(165, 42, 42, 0);
+    position: absolute;
+    margin: 30px 0px 3px 30px;
+    width: 280px;
+    height: 800px;
+    
+}
+
+#login{
+    background-color: #f8e2c4;
+    height: 150px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.671);
+}
+#jogos{
+    background-color: #f8e2c4;
+    height: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.671);
+}
+#jogos>section>h6{
+    display: inline-block;
+    vertical-align: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#jogos>section{
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+
+}
+#times{
+    background-color: #f8e2c4;
+    height: 600px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.671);
+}
+div{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(237, 242, 252);
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
