@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelinha malada</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+td,th{
+    border: 2px solid black;
+    padding: 10px;
+}
+thead,tfoot{
+    background-color: grey;
+    color: aquamarine;
+}
+thead>tr>th{
+    position: sticky;
+    top: -1px;
+    background-color: blueviolet;
+}/*
+POSITION RELATIVE A BASE E POSITION STICKY O HEAD TOP 0
+
+
+
+
+*/
+.num{
+    text-align: right;
+}
+caption{
+    background-color: blueviolet;
+    border: 2px dashed yellow;
+    font-size: large;
+    padding: 10px;
+}
+tbody tr:nth-child(2n)/* pode usar no lugar do 2n odd e even = par e impar*/
+ {
+    background-color: lightblue;
+}
+    </style>
+</head>
+<body>
+    <h1>tabelada foda</h1>
+    <!--
+        anatomia da tabela
+        THEAD TR TD TH
+        TBODY TR TD TH
+        TFOOT TR TD TH
+
+
+        <th scope="row">quando os dados estão a frente
+        <th scope="col">quando os dados estão a baixo
+    -->
+    <table>
+        <caption>TABELA DO FDS</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px;"> população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sampa</td>
+                <td class="num">1500</td>
+            </tr>
+            <tr>
+                <td>minas</td>
+                <td class="num">2121</td>
+            </tr>
+            <tr>
+                <td>rio</td>
+                <td class="num">9999</td>
+            </tr>
+            <tr>
+                <td>vaca</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>afgregnas</td>
+                <td class="num">265451</td>
+            </tr>
+            <tr>
+                <td>boi o</td>
+                <td class="num">78799</td>
+            </tr>
+            <tr>
+                <td>mundo</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>sampa</td>
+                <td class="num">1500</td>
+            </tr>
+            <tr>
+                <td>minas</td>
+                <td class="num">2121</td>
+            </tr>
+            <tr>
+                <td>rio</td>
+                <td class="num">9999</td>
+            </tr>
+            <tr>
+                <td>vaca</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>afgregnas</td>
+                <td class="num">265451</td>
+            </tr>
+            <tr>
+                <td>boi o</td>
+                <td class="num">78799</td>
+            </tr>
+            <tr>
+                <td>mundo</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>sampa</td>
+                <td class="num">1500</td>
+            </tr>
+            <tr>
+                <td>minas</td>
+                <td class="num">2121</td>
+            </tr>
+            <tr>
+                <td>rio</td>
+                <td class="num">9999</td>
+            </tr>
+            <tr>
+                <td>vaca</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>afgregnas</td>
+                <td class="num">265451</td>
+            </tr>
+            <tr>
+                <td>boi o</td>
+                <td class="num">78799</td>
+            </tr>
+            <tr>
+                <td>mundo</td>
+                <td class="num">150</td>
+            </tr>
+            <tr>
+                <td>vidas</td>
+                <td class="num">2661</td>
+            </tr>
+            <tr>
+                <td>rarm</td>
+                <td class="num">99</td>
+            </tr>
+            <tr>
+                <td>tribo</td>
+                <td class="num">151450</td>
+            </tr>
+            <tr>
+                <td>mortes</td>
+                <td class="num">221</td>
+            </tr>
+            <tr>
+                <td>carnaval</td>
+                <td class="num">9999</td>
+            </tr>
+        </tbody> 
+        <tfoot>
+            <tr>
+                <th scope="row">total de noia</th>
+                <td class="num">00000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
