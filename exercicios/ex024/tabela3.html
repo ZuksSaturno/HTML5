@@ -4,8 +4,396 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+table{
+    width: 50vw;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    text-align: center;
+}
+tbody>tr>td{
+    border: 2px solid pink;
+    font-weight: 300;
+}
+caption{
+    background-color: blue;
+}
+.num{
+ background-color: antiquewhite;
+}
+.time{
+ text-align: left;
+}
+    </style>
+
 </head>
 <body>
-    
+    <!--
+        row.span
+        col.span
+    -->
+    <h1>Tabela playoffs 2023 NBA</h1>
+
+    <table>
+        <caption>
+            <h2>LOS ANGELES LAKERS</h2>
+            <h3>2022-23 NBA REGULAR SEASON SCHEDULE</h3>
+        </caption>
+           
+        <thead>
+             <tr>
+                <th>#</th>
+                <th>DAY</th>
+                <th>DATE</th>
+                <th>-</th>
+                <th>OPPONENT</th>
+                <th>LOCAL</th>
+                <th>NAT TV</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1</td>
+                <td>Tue</td>
+                <td>10/18/22</td>
+                <td>at</td>
+                <td>Golden State</td>
+                <td>7:00PM</td>
+                <td>TNT</td>
+            </tr>
+            <tr>
+                <td class="num">2</td>
+                <td>Thu</td>
+                <td>10/20/22</td>
+                <td></td>
+                <td>LA Clippers</td>
+                <td>7:00 PM</td>
+                <td>TNT</td>
+            </tr>
+            <tr>
+                <td class="num">3</td>
+                <td>Sun</td>
+                <td>10/23/22</td>
+                <td></td>
+                <td>Portland</td>
+                <td>12:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">4</td>
+                <td>Wed</td>
+                <td>10/26/22</td>
+                <td>at</td>
+                <td>Denver</td>
+                <td>8:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">5</td>
+                <td>Fri</td>
+                <td>10/28/22</td>
+                <td>at</td>
+                <td>Minnesota</td>
+                <td>7:00 PM</td>
+                <td>ESPN</td>
+            </tr>
+            <tr>
+                <td class="num">6</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">7</td>
+                <td>Wed</td>
+                <td>11/2/22</td>
+                <td></td>
+                <td>New Orleans</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">8</td>
+                <td>Fri</td>
+                <td>11/4/22</td>
+                <td></td>
+                <td>Utah</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">9</td>
+                <td>Sun</td>
+                <td>11/6/22</td>
+                <td></td>
+                <td>Cleveland</td>
+                <td>12:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">10</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">11</td>
+                <td>Wed</td>
+                <td>11/9/22</td>
+                <td>at</td>
+                <td>LA Clippers</td>
+                <td>7:30 PM</td>
+                <td>ESPN</td>
+            </tr>
+            <tr>
+                <td class="num">12</td>
+                <td>Fri</td>
+                <td>11/11/22</td>
+                <td></td>
+                <td>Sacramento</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">13</td>
+                <td>Sun</td>
+                <td>11/13/22</td>
+                <td></td>
+                <td>Broklyn</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">14</td>
+                <td>Fri</td>
+                <td>11/18/22</td>
+                <td></td>
+                <td>Detrit</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">15</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">16</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">17</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">18</td>
+                <td>Wed</td>
+                <td>11/2/22</td>
+                <td></td>
+                <td>New Orleans</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">19</td>
+                <td>Sun</td>
+                <td>11/13/22</td>
+                <td></td>
+                <td>Broklyn</td>
+                <td>6:30 PM</td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td class="num">20</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">21</td>
+                <td>Fri</td>
+                <td>10/28/22</td>
+                <td>at</td>
+                <td>Minnesota</td>
+                <td>7:00 PM</td>
+                <td>ESPN</td>
+            </tr>
+            <tr>
+                <td class="num">22</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">23</td>
+                <td>Wed</td>
+                <td>11/2/22</td>
+                <td></td>
+                <td>New Orleans</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">24</td>
+                <td>Fri</td>
+                <td>11/4/22</td>
+                <td></td>
+                <td>Utah</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">25</td>
+                <td>Sun</td>
+                <td>11/6/22</td>
+                <td></td>
+                <td>Cleveland</td>
+                <td>12:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">26</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">27</td>
+                <td>Wed</td>
+                <td>11/9/22</td>
+                <td>at</td>
+                <td>LA Clippers</td>
+                <td>7:30 PM</td>
+                <td>ESPN</td>
+            </tr>
+            <tr>
+                <td class="num">28</td>
+                <td>Fri</td>
+                <td>11/11/22</td>
+                <td></td>
+                <td>Sacramento</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">29</td>
+                <td>Sun</td>
+                <td>11/13/22</td>
+                <td></td>
+                <td>Broklyn</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">30</td>
+                <td>Fri</td>
+                <td>11/18/22</td>
+                <td></td>
+                <td>Detrit</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">31</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">32</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">33</td>
+                <td>Mon</td>
+                <td>11/7/22</td>
+                <td>at</td>
+                <td>Utah</td>
+                <td>8:15 PM</td>
+                <td>NBATV</td>
+            </tr>
+            <tr>
+                <td class="num">34</td>
+                <td>Wed</td>
+                <td>11/2/22</td>
+                <td></td>
+                <td>New Orleans</td>
+                <td>7:30 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="num">35</td>
+                <td>Sun</td>
+                <td>11/13/22</td>
+                <td></td>
+                <td>Broklyn</td>
+                <td>6:30 PM</td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td class="num">36</td>
+                <td>Sun</td>
+                <td>10/30/22</td>
+                <td></td>
+                <td>Denver</td>
+                <td>6:30 PM</td>
+                <td></td>
+            </tr>
+
+           
+        </tbody>
+
+    </table>
+
+
 </body>
 </html>
+<!--<table id="tab1">
+    <tr>
+        <td>FINAL FOR REALEASE 8/17/2022</td>
+        <td>ALL TIMES LOCAL</td>
+        <td>SUBJECT TO CHANCE</td>
+    </tr>
+</table>-->
